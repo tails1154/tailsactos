@@ -700,7 +700,7 @@ LanguagePage(PINPUT_RECORD Ir)
      * If there is no language or just a single one in the list,
      * skip the language selection process altogether.
      */
-    if (GetNumberOfListEntries(USetupData.LanguageList) <= 1)
+    if (TRUE)
     {
         USetupData.LanguageId = (LANGID)(wcstol(SelectedLanguageId, NULL, 16) & 0xFFFF);
         return WELCOME_PAGE;
