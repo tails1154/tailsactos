@@ -159,7 +159,7 @@ static MUI_ENTRY enUSWelcomePageEntries[] =
     {
         6,
         24,
-        "https://TailsactOS.org/",
+        "https://github.com/tails1154/tailsactos/",
         TEXT_STYLE_HIGHLIGHT,
         TEXT_ID_STATIC
     },
