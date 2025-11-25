@@ -1,0 +1,1 @@
+./configure.sh && cd output-MinGW-i386/ && rm disk.qcow2 ; qemu-img create -f qcow2 disk.qcow2 10G && ninja && ninja bootcd livecd && qemu-system-i386 -cdrom livecd.iso -hda disk.qcow2
