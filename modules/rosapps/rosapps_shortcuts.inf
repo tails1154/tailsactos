@@ -14,6 +14,7 @@ CommunicationsShortcuts=2, %ACCESSORIES%\%COMMUNICATIONS%
 GamesShortcuts=2, %GAMES%
 
 [SystemToolsShortcuts]
+%SystemRoot%\system32\rapps.exe, Get New Apps, Get new applications, 0
 %SystemRoot%\system32\fontsub.exe, %FONTSUB_TITLE%, %FONTSUB_DESC%, 0
 %SystemRoot%\system32\screenshot.exe, %SCREENSHOT_TITLE%, %SCREENSHOT_DESC%, 0, %HOMEDRIVE%%HOMEPATH%
 %SystemRoot%\system32\vcdcontroltool.exe, %VCD_TITLE%, %VCD_DESC%, 0
