@@ -54,7 +54,7 @@ typedef struct _OS_LOADING_METHOD
 static const OS_LOADING_METHOD
 OSLoadingMethods[] =
 {
-    {"ReactOSSetup", EditCustomBootReactOSSetup, LoadReactOSSetup},
+    {"TailsactOSSetup", EditCustomBootReactOSSetup, LoadReactOSSetup},
 
 #if defined(_M_IX86) || defined(_M_AMD64)
 #ifndef UEFIBOOT
@@ -98,8 +98,8 @@ WarnDeprecated(
         "\n"
         "%s\n"
         "\n"
-        "Should you need assistance, please contact ReactOS developers\n"
-        "on the official ReactOS Mattermost server <chat.reactos.org>.",
+        "Should you need assistance, please contact TailsactOS developers\n"
+        "on the official TailsactOS Mattermost server <chat.reactos.org>.",
         msgString);
 }
 #endif // HAS_DEPRECATED_OPTIONS
@@ -433,7 +433,7 @@ VOID RunLoader(VOID)
         /* Show the operating system list menu */
         if (!UiDisplayMenu("Please select the operating system to start:",
                            "For troubleshooting and advanced startup options for "
-                               "ReactOS, press F8.",
+                               "TailsactOS, press F8.",
                            OperatingSystemDisplayNames,
                            OperatingSystemCount,
                            DefaultOperatingSystem,

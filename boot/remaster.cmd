@@ -16,8 +16,8 @@ setlocal enabledelayedexpansion
 :: Customizable settings
 ::
 :: ISO image identifier names
-set ISO_MANUFACTURER="ReactOS Project"& :: For both the publisher and the preparer
-set ISO_VOLNAME="ReactOS"&              :: For both the Volume ID and the Volume set ID
+set ISO_MANUFACTURER="TailsactOS Project"& :: For both the publisher and the preparer
+set ISO_VOLNAME="TailsactOS"&              :: For both the Volume ID and the Volume set ID
 
 :: Image names of the MKISOFS and ISOHYBRID tools
 set MKISOFS=MKISOFS.EXE
@@ -86,7 +86,7 @@ set efisys_file=loader/efisys.bin
 
 set ISOBOOT_PATH=%isoboot_file%
 ::CHOICE /c 12 /n /m "Please choose the ISO boot file: 1) isoboot.bin ; 2) isobtrt.bin!\n![default: 1]: "
-CHOICE /c YN /n /m "Do you want the ReactOS media to wait for a key-press before booting [Y,N]? "
+CHOICE /c YN /n /m "Do you want the TailsactOS media to wait for a key-press before booting [Y,N]? "
 echo.
 if errorlevel 2 set ISOBOOT_PATH=%isobtrt_file%
 

@@ -12,14 +12,14 @@
 ## POSIX shell compliance checker: https://www.shellcheck.net
 ##
 
-## echo -ne "\033]0;ReactOS ISO Remastering Script\007"
+## echo -ne "\033]0;TailsactOS ISO Remastering Script\007"
 
 ##
 ## Customizable settings
 ##
 ## ISO image identifier names
-ISO_MANUFACTURER="ReactOS Project"  # For both the publisher and the preparer
-ISO_VOLNAME="ReactOS"               # For both the Volume ID and the Volume set ID
+ISO_MANUFACTURER="TailsactOS Project"  # For both the publisher and the preparer
+ISO_VOLNAME="TailsactOS"               # For both the Volume ID and the Volume set ID
 
 ## Image names of the MKISOFS and ISOHYBRID tools
 MKISOFS=mkisofs
@@ -32,7 +32,7 @@ ISOHYBRID=isohybrid
 clear
 echo "*******************************************************************************"
 echo "*                                                                             *"
-echo "*                       ReactOS ISO Remastering Script                        *"
+echo "*                       TailsactOS ISO Remastering Script                        *"
 echo "*                                                                             *"
 echo "*******************************************************************************"
 echo

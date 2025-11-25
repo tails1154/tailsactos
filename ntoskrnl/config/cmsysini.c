@@ -743,7 +743,7 @@ CmpCreateControlSet(IN PLOADER_PARAMETER_BLOCK LoaderBlock)
     LoaderExtension = LoaderBlock->Extension;
     if (LoaderExtension)
     {
-        DPRINT("ReactOS doesn't support NTLDR Profiles yet!\n");
+        DPRINT("TailsactOS doesn't support NTLDR Profiles yet!\n");
     }
 
     /* Create the current hardware profile key */

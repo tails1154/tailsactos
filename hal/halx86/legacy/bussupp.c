@@ -1233,7 +1233,7 @@ HalpInitializePciBus(VOID)
                     /* Check for USB controllers that generate SMIs */
                     if (HackFlags & HAL_PCI_CHIP_HACK_USB_SMI_DISABLE)
                     {
-                        DbgPrint("This chipset has a USB controller which generates SMIs. ReactOS will likely fail to boot!\n\n");
+                        DbgPrint("This chipset has a USB controller which generates SMIs. TailsactOS will likely fail to boot!\n\n");
                         continue;
                     }
                 }

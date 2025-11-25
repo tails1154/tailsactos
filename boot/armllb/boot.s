@@ -53,7 +53,7 @@
 	.byte 2 		 // ARM
 	.byte 2 		 // Kernel
 	.byte 0 		 // No compression
-	.ascii "ReactOS ARM Low-Level Bootloader"
+	.ascii "TailsactOS ARM Low-Level Bootloader"
 #endif
 
     /* Load C entrypoint and setup LLB stack */

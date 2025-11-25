@@ -84,7 +84,7 @@ static const PCSTR ARCPathPrompt =
     "multi(0)disk(0)fdisk(0)";
 
 static const PCSTR ReactOSSystemPathPrompt =
-    "Enter the path to your ReactOS system directory.\n"
+    "Enter the path to your TailsactOS system directory.\n"
     "\n"
     "Examples:\n"
     "\\REACTOS\n"
@@ -98,7 +98,7 @@ static const PCSTR ReactOSOptionsPrompt =
     "/BASEVIDEO /MAXMEM=64\n"
     "/KERNEL=NTKRNLMP.EXE /HAL=HALMPS.DLL";
 static const PCSTR ReactOSSetupOptionsPrompt =
-    "Enter additional load options you want passed to the ReactOS Setup.\n"
+    "Enter additional load options you want passed to the TailsactOS Setup.\n"
     "These options will supplement those obtained from the TXTSETUP.SIF\n"
     "file, unless you also specify the /SIFOPTIONSOVERRIDE option switch.\n"
     "\n"
@@ -119,8 +119,8 @@ VOID OptionMenuCustomBoot(VOID)
         "Boot Sector (Disk/Partition/File)",
         "Linux",
 #endif
-        "ReactOS",
-        "ReactOS Setup"
+        "TailsactOS",
+        "TailsactOS Setup"
         };
     ULONG SelectedMenuItem;
     OperatingSystemItem OperatingSystem;
@@ -540,7 +540,7 @@ EditCustomBootReactOS(
     /* Generate a unique section name */
     TimeInfo = ArcGetTime();
     RtlStringCbPrintfA(SectionName, sizeof(SectionName),
-                       "CustomReactOS%u%u%u%u%u%u",
+                       "CustomTailsactOS%u%u%u%u%u%u",
                        TimeInfo->Year, TimeInfo->Day, TimeInfo->Month,
                        TimeInfo->Hour, TimeInfo->Minute, TimeInfo->Second);
 
@@ -549,7 +549,7 @@ EditCustomBootReactOS(
         return;
 
     /* Add the BootType */
-    if (!IniAddSettingValueToSection(SectionId, "BootType", IsSetup ? "ReactOSSetup" : "Windows2003"))
+    if (!IniAddSettingValueToSection(SectionId, "BootType", IsSetup ? "TailsactOSSetup" : "Windows2003"))
         return;
 
     /* Construct the ReactOS ARC system path */

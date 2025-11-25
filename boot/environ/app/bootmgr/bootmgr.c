@@ -2757,7 +2757,7 @@ BmMain (
     BOOLEAN BootOk;
     ULONG SequenceCount;
     BOOLEAN GetEntry;
-    EfiPrintf(L"ReactOS UEFI Boot Manager Initializing...\r\n");
+    EfiPrintf(L"TailsactOS UEFI Boot Manager Initializing...\r\n");
 
     /* Reading the BCD can change this later on */
     RebootOnError = FALSE;

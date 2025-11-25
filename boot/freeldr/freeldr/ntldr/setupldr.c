@@ -533,7 +533,7 @@ LoadReactOSSetup(
         ERR("No 'BootType' value, aborting!\n");
         return EINVAL;
     }
-    if (_stricmp(ArgValue, "ReactOSSetup") != 0)
+    if (_stricmp(ArgValue, "TailsactOSSetup") != 0)
     {
         ERR("Unknown 'BootType' value '%s', aborting!\n", ArgValue);
         return EINVAL;
@@ -550,7 +550,7 @@ LoadReactOSSetup(
     /* Let the user know we started loading */
     UiDrawBackdrop(UiGetScreenHeight());
     UiDrawStatusText("Setup is loading...");
-    UiDrawProgressBarCenter("Loading ReactOS Setup...");
+    UiDrawProgressBarCenter("Loading TailsactOS Setup...");
 
     /* Retrieve the system path */
     *BootPath = ANSI_NULL;

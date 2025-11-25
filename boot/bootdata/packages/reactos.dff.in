@@ -1,7 +1,7 @@
 
 ; Main ReactOS package
 
-.Set DiskLabelTemplate="ReactOS"                ; Label of disk
+.Set DiskLabelTemplate="TailsactOS"                ; Label of disk
 .Set CabinetNameTemplate="reactos.cab"          ; reactos.cab
 .Set InfFileName="reactos.inf"                  ; reactos.inf
 
@@ -12,7 +12,7 @@
 .InfBegin
 [Version]
 Signature = "$Windows NT$"
-;Signature = "$ReactOS$"
+;Signature = "$TailsactOS$"
 
 ; Directories relative to the installation directory.
 ; For specifying absolute directories, use the SystemPartitionFiles section,

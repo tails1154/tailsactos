@@ -313,7 +313,7 @@ IopSaveBootLogToFile(VOID)
         return;
     }
 
-    //Status = IopWriteLogFile(L"ReactOS "KERNEL_VERSION_STR);
+    //Status = IopWriteLogFile(L"TailsactOS "KERNEL_VERSION_STR);
 
     if (!NT_SUCCESS(Status))
     {

@@ -9818,7 +9818,7 @@ OslDrawLogo (
     BlpArchSwitchContext(BlProtectedMode);
 
     /* Display text below the logo */
-    EfiPrintf(L"\n\n\n\n\nReactOS UEFI OS Loader Initializing... %lx\r\n",
+    EfiPrintf(L"\n\n\n\n\nTailsactOS UEFI OS Loader Initializing... %lx\r\n",
               EfiStatus);
     EfiStall(1000000);
 

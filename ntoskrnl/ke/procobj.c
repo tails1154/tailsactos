@@ -105,7 +105,7 @@ KiAttachProcess(IN PKTHREAD Thread,
     }
     else
     {
-        DPRINT1("Errr. ReactOS doesn't support paging out processes yet...\n");
+        DPRINT1("Errr. TailsactOS doesn't support paging out processes yet...\n");
         ASSERT(FALSE);
     }
 }

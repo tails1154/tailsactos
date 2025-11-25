@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/tails1154/tailsactos/build/CMakeFiles/3.17.2-ReactOS/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/tails1154/tailsactos/build/CMakeFiles/3.17.2-TailsactOS/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,7 +23,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/tails1154/tailsactos/build/CMakeFiles/3.17.2-ReactOS/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/tails1154/tailsactos/build/CMakeFiles/3.17.2-TailsactOS/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/tails1154/tailsactos/build/CMakeFiles/CMakeTmp

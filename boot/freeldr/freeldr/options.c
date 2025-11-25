@@ -41,7 +41,7 @@ PCSTR OptionsMenuList[] =
 
     NULL,
 
-    "Start ReactOS normally",
+    "Start TailsactOS normally",
 #ifdef HAS_OPTION_MENU_EDIT_CMDLINE
     "Edit Boot Command Line (F10)",
 #endif
@@ -97,7 +97,7 @@ VOID DoOptionsMenu(IN OperatingSystemItem* OperatingSystem)
     if (!UiDisplayMenu("Select an option:", NULL,
                        OptionsMenuList,
                        sizeof(OptionsMenuList) / sizeof(OptionsMenuList[0]),
-                       11, // Use "Start ReactOS normally" as default; see the switch below.
+                       11, // Use "Start TailsactOS normally" as default; see the switch below.
                        -1,
                        &SelectedMenuItem,
                        TRUE,
